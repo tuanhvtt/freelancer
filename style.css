@@ -1,0 +1,153 @@
+:root {
+
+  --primary-button: ;
+  --primary-text-button: ;
+  --primary-button-hover: ;
+  --primary-text-hover: ;
+  --primary-text-h1: ;
+   --primary-button-h2: ;
+    --primary-text-h2: ;
+
+}
+header{
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+.header_menu{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+.header_menu .bar{
+    cursor: pointer;
+}
+.header_menu .slide_toggle_bar{
+    gap: 10px;
+}
+.header_menu .slide_toggle_bar.hidden {
+    opacity: 0;
+    transition: 0.5s;
+}
+.header_menu .mn {
+    padding: 5px 20px;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.bar i{
+    font-size: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+.header_menu .mn:hover{
+    background: #f6520a;
+    border: none;
+}
+.header_menu .mn:hover a{
+    color: #fff;
+}
+.header_menu .mn a {
+    font-weight: 400;
+    color: #000;
+    font-size: 17px;
+}
+.header_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_register{
+    display: flex;
+    gap: 10px;
+}
+.header_register a span{
+    color: #00aeef;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header_register a span:hover{
+    color: #f6520a;
+}
+main{
+    margin: 20px 0;
+}
+footer .link_footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+footer .link_footer a.link{
+    color: #f6520a;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+footer .link_footer a.link:after {
+    color: #000;
+    content: '|';
+    margin-left: 10px;
+}
+footer .address{
+    font-weight: 500;
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+}
+footer .copyright{
+    justify-content: center;
+    display: grid;
+    cursor: pointer;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+footer .copyright p{
+    font-weight: 500;
+    color: #f6520a;
+    margin: 0;
+    padding: 5px 0;
+}
+footer .copyright .back_top{
+    border-radius: 0 0px 10px 10px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.container.hidden {
+    display: none;
+    transition: 0.5s;
+}
+.header_register.account_signin{
+    border: 1px solid #000;
+    display: flex;
+    gap: 17px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    align-items: center;
+}
+.header_register.account_signin .account{
+    text-align: center;
+    line-height: 1.2;
+}
+.header_register.account_signin .account p{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+.header_register.account_signin .account a{
+    color: #00bcd4;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header_register.account_signin .bar{
+    cursor: pointer;
+}
+@media screen and (min-width: 1024px){
+.container {
+    max-width: 1060px;
+}
+}
