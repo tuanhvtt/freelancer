@@ -3,6 +3,6 @@ $(document).ready(function () {
         $(this).next().toggleClass('hidden');
     });
     $(".copyright").click(function () {
-        $(this).prev().toggleClass('hidden');
+        $(this).find('.footer_bottom').toggleClass('hidden');
     });
 });

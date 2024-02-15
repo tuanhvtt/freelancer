@@ -1,21 +1,14 @@
-:root {
-
-  --primary-button: ;
-  --primary-text-button: ;
-  --primary-button-hover: ;
-  --primary-text-hover: ;
-  --primary-text-h1: ;
-   --primary-button-h2: ;
-    --primary-text-h2: ;
-
+body{
+    border-radius: 10px;
+    border: 3px solid #f6520a;
 }
 header{
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #f6520a;
     padding: 10px 0;
 }
 .header_menu{
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     display: flex;
 }
 .header_menu .bar{
@@ -30,7 +23,7 @@ header{
 }
 .header_menu .mn {
     padding: 5px 20px;
-    border: 1px solid #000;
+    border: 1px solid #f6520a;
     border-radius: 7px;
 }
 .bar i{
@@ -97,10 +90,10 @@ footer .copyright{
     justify-content: center;
     display: grid;
     cursor: pointer;
-    border: 1px solid #333;
+    border: 1px solid #000;
     text-align: center;
     border-radius: 10px;
-    margin: 0 5px;
+    margin: 5px 5px;
 }
 footer .copyright p{
     font-weight: 500;
@@ -108,17 +101,26 @@ footer .copyright p{
     margin: 0;
     padding: 5px 0;
 }
+.footer_bottom{
+    display: none;
+    margin-bottom: 5px;
+}
 footer .copyright .back_top{
+    top: 4px;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 0 0px 10px 10px;
     border: 1px solid #000;
     width: 200px;
-    height: 8px;
+    height: 9px;
     display: flex;
     justify-content: center;
     cursor: pointer;
 }
-.container.hidden {
-    display: none;
+.footer_bottom.hidden {
+    display: block;
     transition: 0.5s;
 }
 .header_register.account_signin{
@@ -147,7 +149,7 @@ footer .copyright .back_top{
     cursor: pointer;
 }
 @media screen and (min-width: 1024px){
-.container {
-    max-width: 1060px;
-}
+    .container {
+        max-width: 1060px;
+    }
 }
