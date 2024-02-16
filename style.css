@@ -53,7 +53,7 @@ a{
     display: flex;
     gap: 10px;
 }
-.header_register a span{
+.header_register a span.account{
     color: #00aeef;
     font-size: 18px;
     font-weight: 600;
@@ -62,7 +62,7 @@ a{
     color: #f6520a;
 }
 main{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 footer .link_footer {
     display: flex;
@@ -147,6 +147,109 @@ footer .copyright .back_top{
 }
 .header_register.account_signin .bar{
     cursor: pointer;
+}
+.header_register.account_signin{
+    position: relative;
+}
+.account_signin_nav_tab .asnt{
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #000;
+    width: max-content;
+    min-width: 200px;
+    text-align: center;
+}
+.account_signin_nav_tab .asnt span{
+}
+.account_signin_nav_tab{
+    left: 9px;
+    display: flex;
+    top: 50px;
+    flex-wrap: wrap;
+    position: absolute;
+    visibility: hidden;
+}
+.account_signin_nav_tab.open {
+     visibility: visible;
+ }
+.list_project .project_title {
+    padding: 5px 20px;
+    border: 1px solid #f6520a;
+    border-radius: 7px;
+    background: #fff;
+}
+.list_project #nav-tab{
+    gap: 10px;
+    align-items: center;
+}
+.add_project_title{
+    filter: brightness(0.5);
+    color: #000;
+    cursor: pointer;
+}
+.list_project .tab_child.active {
+    background: #f6520a;
+    color: #fff;
+}
+.list_project .tab_child.active:not(:first-child){
+    border-radius: 0;
+}
+.list_project .tab_child:hover{
+    background: #f6520a;
+    color: #fff;
+}
+.list_project .project_title.active {
+    color: #fff;
+    background: #f6520a;
+}
+.list_project .project_title:hover{
+    color: #fff;
+    background: #f6520a;
+}
+.list_project .tab_child:not(:first-child):hover{
+    border-radius: 0;
+}
+.list_project .tab_child {
+    padding: 0 15px;
+    border-bottom: 1px solid #000 !important;
+    border: 1px solid #eee;
+    border-radius: 10px 0 0 0;
+    background: #fff;
+}
+#nav-tabContent-inner h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+#nav-tabContent-inner h3 .pra{
+    font-size: 15px;
+}
+#nav-tabContent-inner a.change{
+    padding-left: 20px;
+    color: #00bcd4;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-content h4{
+    text-align: start;
+    margin: 15px 0 0 0;
+}
+.button-content p{
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.2;
+}
+#nav-tabContent .content_child{
+    min-height: 670px;
+}
+.content_child .add_project_title{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
 }
 @media screen and (min-width: 1024px){
     .container {
