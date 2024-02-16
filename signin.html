@@ -13,377 +13,390 @@
     <script src="main.js"></script>
 </head>
 <body>
-<header>
-    <div class="container header_total">
-        <div class="header_menu">
-            <div class="bar">
-                <i class="fa-solid fa-bars"></i>
+<div id="body_project">
+    <header>
+        <div class="container header_total">
+            <div class="header_menu">
+                <div class="bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="slide_toggle_bar d-flex">
+                    <div class="introduce mn">
+                        <a href="#">Giới thiệu</a>
+                    </div>
+                    <div class="package_register mn">
+                        <a href="#">Đăng ký gói</a>
+                    </div>
+                    <div class="instruct mn">
+                        <a href="#">Hướng dẫn</a>
+                    </div>
+                    <div class="suport mn">
+                        <a href="#">Hỗ trợ</a>
+                    </div>
+                </div>
             </div>
-            <div class="slide_toggle_bar d-flex">
-                <div class="introduce mn">
-                    <a href="#">Giới thiệu</a>
+            <div class="header_register account_signin">
+                <div class="account">
+                    <p class="text">
+                        Nguyễn Văn Hùng
+                    </p>
+                    <a href="javascript:0">Đăng xuất</a>
                 </div>
-                <div class="package_register mn">
-                    <a href="#">Đăng ký gói</a>
+                <div class="bar">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-                <div class="instruct mn">
-                    <a href="#">Hướng dẫn</a>
-                </div>
-                <div class="suport mn">
-                    <a href="#">Hỗ trợ</a>
+                <div class="account_signin_nav_tab">
+                    <a href="/" class="update_i4 asnt">
+                        <span>Cập nhật thông tin gói</span>
+                    </a>
+                    <a href="/" class="i4 asnt">
+                        <span>Thông tin gói</span>
+                    </a>
+                    <a href="index.html" class="signout asnt">
+                        <span>Đăng xuất</span>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="header_register account_signin">
-            <div class="account">
-                <p class="text">
-                    Nguyễn Văn Hùng
-                </p>
-                <a href="javascript:0">Đăng xuất</a>
-            </div>
-            <div class="bar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="account_signin_nav_tab">
-                <a href="/" class="update_i4 asnt">
-                    <span>Cập nhật thông tin gói</span>
-                </a>
-                <a href="/" class="i4 asnt">
-                    <span>Thông tin gói</span>
-                </a>
-                <a href="index.html" class="signout asnt">
-                    <span>Đăng xuất</span>
-                </a>
-            </div>
-        </div>
-    </div>
 
-</header>
-<main>
-    <div class="container">
-        <div class="list_project col-12">
-            <nav>
-                <div class="nav mb-3" id="nav-tab" role="tablist">
-                    <button class="project_title active" id="nav-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">Dự án</button>
-                    <button class="project_title" id="nav-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">Dữ liệu</button>
-                    <button class="project_title" id="nav-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">Bảng 1</button>
-                    <button class="project_title" id="nav-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4" aria-selected="false">Bảng 2</button>
-                    <button class="project_title" id="nav-table-tab-5" data-bs-toggle="tab" data-bs-target="#nav-5" type="button" role="tab" aria-controls="nav-5" aria-selected="false">Bảng 3</button>
-                    <span class="add_project_title">➕</span>
-                </div>
-            </nav>
-            <div class="tab-content col-12" id="nav-tabContent">
-                <div class="tab-pane fade active show" id="nav-1" role="tabpanel" aria-labelledby="nav-table-tab-1">
-                    <div class="d-flex content_child">
-                        <div class="col-3">
-                            <div class="nav" id="nav-tab-inner" role="tablist">
-                                <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
-                                <span class="button-content">
-                                    <h4>Tên dự án 1</h4>
-                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
-                                </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
-                                  <span class="button-content">
-                                    <h4>Tên dự án 2</h4>
-                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
-                                </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
-                                  <span class="button-content">
-                                    <h4>Tên dự án 3</h4>
-                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
-                                </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
-                                  <span class="button-content">
-                                    <h4>Tên dự án 4</h4>
-                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
-                                </span>
-                                </button>
-                                <span class="add_project_title">➕</span>
-                                <!-- Thêm các tab con khác tùy ý -->
-                            </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="list_project col-12">
+                <nav class="d-flex">
+                    <div class="nav mb-3 col-md-8 col-lg-8 col-sm-12 col-md 12" id="nav-tab" role="tablist">
+                        <button class="project_title active" id="nav-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">Dự án</button>
+                        <button class="project_title" id="nav-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">Dữ liệu</button>
+                        <button class="project_title" id="nav-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">Bảng 1</button>
+                        <button class="project_title" id="nav-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4" aria-selected="false">Bảng 2</button>
+                        <button class="project_title" id="nav-table-tab-5" data-bs-toggle="tab" data-bs-target="#nav-5" type="button" role="tab" aria-controls="nav-5" aria-selected="false">Bảng 3</button>
+                        <span class="add_project_title">➕</span>
+                    </div>
+                    <div class="mb-3 col-md-4 col-lg-4 col-sm-12 col-md 12 title_project_right d-flex">
+                        <div class="name_project">
+                            <h4>Dự án hiện tại:</h4>
+                            <span>Dự án 2</span>
                         </div>
-                        <!-- Nội dung của tab con -->
-                        <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
-                            <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
-                                <!-- Nội dung của tab con 1 -->
-                               <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <!-- Thêm nội dung của các tab con khác tùy ý -->
+                        <div class="total_project">
+                            <span class="project_title">
+                                Tổng hợp
+                            </span>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade " id="nav-2" role="tabpanel" aria-labelledby="nav-table-tab-2">
-                    <div class="d-flex content_child">
-                        <div class="col-3">
-                            <div class="nav" id="nav-tab-inner" role="tablist">
-                                <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
+                </nav>
+                <div class="tab-content col-12 border" id="nav-tabContent">
+                    <div class="tab-pane fade active show" id="nav-1" role="tabpanel" aria-labelledby="nav-table-tab-1">
+                        <div class="d-flex content_child">
+                            <div class="col-3">
+                                <div class="nav content_child_title_left" id="nav-tab-inner" role="tablist">
+                                    <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
                                 <span class="button-content">
                                     <h4>Tên dự án 1</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 2</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 3</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 4</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <span class="add_project_title">➕</span>
-                                <!-- Thêm các tab con khác tùy ý -->
+                                    </button>
+                                    <span class="add_project_title">➕</span>
+                                    <!-- Thêm các tab con khác tùy ý -->
+                                </div>
                             </div>
-                        </div>
-                        <!-- Nội dung của tab con -->
-                        <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
-                            <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
-                                <!-- Nội dung của tab con 1 -->
-                                <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                            <!-- Nội dung của tab con -->
+                            <div class="tab-content-child tab-content p-3 col-9" id="nav-tabContent-inner">
+                                <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
+                                    <!-- Nội dung của tab con 1 -->
+                                    <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <!-- Thêm nội dung của các tab con khác tùy ý -->
                             </div>
-                            <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <!-- Thêm nội dung của các tab con khác tùy ý -->
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade " id="nav-3" role="tabpanel" aria-labelledby="nav-table-tab-3">
-                    <div class="d-flex content_child">
-                        <div class="col-3">
-                            <div class="nav" id="nav-tab-inner" role="tablist">
-                                <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
+                    <div class="tab-pane fade " id="nav-2" role="tabpanel" aria-labelledby="nav-table-tab-2">
+                        <div class="d-flex content_child">
+                            <div class="col-3">
+                                <div class="nav" id="nav-tab-inner" role="tablist">
+                                    <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
                                 <span class="button-content">
                                     <h4>Tên dự án 1</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 2</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 3</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 4</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <span class="add_project_title">➕</span>
-                                <!-- Thêm các tab con khác tùy ý -->
+                                    </button>
+                                    <span class="add_project_title">➕</span>
+                                    <!-- Thêm các tab con khác tùy ý -->
+                                </div>
                             </div>
-                        </div>
-                        <!-- Nội dung của tab con -->
-                        <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
-                            <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
-                                <!-- Nội dung của tab con 1 -->
-                                <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                            <!-- Nội dung của tab con -->
+                            <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
+                                <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
+                                    <!-- Nội dung của tab con 1 -->
+                                    <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <!-- Thêm nội dung của các tab con khác tùy ý -->
                             </div>
-                            <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <!-- Thêm nội dung của các tab con khác tùy ý -->
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-table-tab-4">
-                    <div class="d-flex content_child">
-                        <div class="col-3">
-                            <div class="nav" id="nav-tab-inner" role="tablist">
-                                <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
+                    <div class="tab-pane fade " id="nav-3" role="tabpanel" aria-labelledby="nav-table-tab-3">
+                        <div class="d-flex content_child">
+                            <div class="col-3">
+                                <div class="nav" id="nav-tab-inner" role="tablist">
+                                    <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
                                 <span class="button-content">
                                     <h4>Tên dự án 1</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 2</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 3</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 4</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <span class="add_project_title">➕</span>
-                                <!-- Thêm các tab con khác tùy ý -->
+                                    </button>
+                                    <span class="add_project_title">➕</span>
+                                    <!-- Thêm các tab con khác tùy ý -->
+                                </div>
                             </div>
-                        </div>
-                        <!-- Nội dung của tab con -->
-                        <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
-                            <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
-                                <!-- Nội dung của tab con 1 -->
-                                <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                            <!-- Nội dung của tab con -->
+                            <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
+                                <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
+                                    <!-- Nội dung của tab con 1 -->
+                                    <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <!-- Thêm nội dung của các tab con khác tùy ý -->
                             </div>
-                            <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <!-- Thêm nội dung của các tab con khác tùy ý -->
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade " id="nav-5" role="tabpanel" aria-labelledby="nav-table-tab-5">
-                    <div class="d-flex content_child">
-                        <div class="col-3">
-                            <div class="nav" id="nav-tab-inner" role="tablist">
-                                <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
+                    <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-table-tab-4">
+                        <div class="d-flex content_child">
+                            <div class="col-3">
+                                <div class="nav" id="nav-tab-inner" role="tablist">
+                                    <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
                                 <span class="button-content">
                                     <h4>Tên dự án 1</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 2</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 3</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
                                   <span class="button-content">
                                     <h4>Tên dự án 4</h4>
                                     <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
                                 </span>
-                                </button>
-                                <span class="add_project_title">➕</span>
-                                <!-- Thêm các tab con khác tùy ý -->
+                                    </button>
+                                    <span class="add_project_title">➕</span>
+                                    <!-- Thêm các tab con khác tùy ý -->
+                                </div>
+                            </div>
+                            <!-- Nội dung của tab con -->
+                            <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
+                                <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
+                                    <!-- Nội dung của tab con 1 -->
+                                    <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <!-- Thêm nội dung của các tab con khác tùy ý -->
                             </div>
                         </div>
-                        <!-- Nội dung của tab con -->
-                        <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
-                            <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
-                                <!-- Nội dung của tab con 1 -->
-                                <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                    </div>
+                    <div class="tab-pane fade " id="nav-5" role="tabpanel" aria-labelledby="nav-table-tab-5">
+                        <div class="d-flex content_child">
+                            <div class="col-3">
+                                <div class="nav" id="nav-tab-inner" role="tablist">
+                                    <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
+                                <span class="button-content">
+                                    <h4>Tên dự án 1</h4>
+                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
+                                </span>
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-inner-2" type="button" role="tab" aria-controls="nav-inner-2" aria-selected="false">
+                                  <span class="button-content">
+                                    <h4>Tên dự án 2</h4>
+                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
+                                </span>
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-inner-3" type="button" role="tab" aria-controls="nav-inner-3" aria-selected="false">
+                                  <span class="button-content">
+                                    <h4>Tên dự án 3</h4>
+                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
+                                </span>
+                                    </button>
+                                    <button class="inner_tab_title tab_child" id="nav-inner-table-tab-4" data-bs-toggle="tab" data-bs-target="#nav-inner-4" type="button" role="tab" aria-controls="nav-inner-4" aria-selected="false">
+                                  <span class="button-content">
+                                    <h4>Tên dự án 4</h4>
+                                    <p>Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</p>
+                                </span>
+                                    </button>
+                                    <span class="add_project_title">➕</span>
+                                    <!-- Thêm các tab con khác tùy ý -->
+                                </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                            <!-- Nội dung của tab con -->
+                            <div class="tab-content p-3 border col-9" id="nav-tabContent-inner">
+                                <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
+                                    <!-- Nội dung của tab con 1 -->
+                                    <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-2" role="tabpanel" aria-labelledby="nav-inner-table-tab-2">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 2<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
+                                    <!-- Nội dung của tab con 2 -->
+                                    <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
+                                    <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
+                                </div>
+                                <!-- Thêm nội dung của các tab con khác tùy ý -->
                             </div>
-                            <div class="tab-pane fade" id="nav-inner-3" role="tabpanel" aria-labelledby="nav-inner-table-tab-3">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 3<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <div class="tab-pane fade" id="nav-inner-4" role="tabpanel" aria-labelledby="nav-inner-table-tab-4">
-                                <!-- Nội dung của tab con 2 -->
-                                <h3>Tên dự án 4<a href="javscript:0" class="change">Thay đổi</a></h3>
-                                <h3>Mô tả dự án: <span class="pra">Mô tả dự án, mô tả dự án, Mô tả dự án, mô tả dự án Mô tả dự án, mô tả dự án Mô tả dự án, mô tả</span><a href="javascript:0" class="change">Thay đổi</a></h3>
-                            </div>
-                            <!-- Thêm nội dung của các tab con khác tùy ý -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
-<footer>
-    <div class="copyright">
-        <div class="back_top">
-            <i class="fa-solid fa-triangle"></i>
-        </div>
-        <p class="license">Bản quyền thuộc về ABC@DEF</p>
-        <div class="footer_bottom">
-            <div class="link_footer">
-                <a href="/" class="link"><span>Trang chủ</span></a>
-                <a href="/" class="link"><span>Hướng dẫn</span></a>
-                <a href="/" class="link"><span>Liên hệ</span></a>
-                <a href="/" class="link"><span>Chính sách bảo mật</span></a>
+    </main>
+    <footer>
+        <div class="copyright">
+            <div class="back_top">
+                <i class="fa-solid fa-triangle"></i>
             </div>
-            <div class="address"><span>Địa chỉ: ABC đường DEF, phường HIJ, Quận KLM, thành phố NOP, Việt Nam</span></div>
+            <p class="license">Bản quyền thuộc về ABC@DEF</p>
+            <div class="footer_bottom">
+                <div class="link_footer">
+                    <a href="/" class="link"><span>Trang chủ</span></a>
+                    <a href="/" class="link"><span>Hướng dẫn</span></a>
+                    <a href="/" class="link"><span>Liên hệ</span></a>
+                    <a href="/" class="link"><span>Chính sách bảo mật</span></a>
+                </div>
+                <div class="address"><span>Địa chỉ: ABC đường DEF, phường HIJ, Quận KLM, thành phố NOP, Việt Nam</span></div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
 </body>
 </html>
 
