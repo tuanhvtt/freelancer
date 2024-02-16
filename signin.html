@@ -64,7 +64,7 @@
         <div class="container">
             <div class="list_project col-12">
                 <nav class="d-flex">
-                    <div class="nav mb-3 col-md-8 col-lg-8 col-sm-12 col-md 12 list_project_table" id="nav-tab" role="tablist">
+                    <div class="nav mb-3 col-md-8 col-lg-8 col-sm-12 col-xs-12 list_project_table" id="nav-tab" role="tablist">
                         <button class="project_title active" id="nav-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">Dự án</button>
                         <button class="project_title" id="nav-table-tab-2" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">Dữ liệu</button>
                         <button class="project_title" id="nav-table-tab-3" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">Bảng 1</button>
@@ -72,7 +72,7 @@
                         <button class="project_title" id="nav-table-tab-5" data-bs-toggle="tab" data-bs-target="#nav-5" type="button" role="tab" aria-controls="nav-5" aria-selected="false">Bảng 3</button>
                         <span class="add_project_title">➕</span>
                     </div>
-                    <div class="mb-3 col-md-4 col-lg-4 col-sm-12 col-md 12 title_project_right d-flex">
+                    <div class="mb-3 col-md-4 col-lg-4 col-sm-12 col-xs-12 title_project_right d-flex">
                         <div class="name_project">
                             <h4>Dự án hiện tại:</h4>
                             <span>Dự án 2</span>
@@ -87,7 +87,7 @@
                 <div class="tab-content col-12 border" id="nav-tabContent">
                     <div class="tab-pane fade active show" id="nav-1" role="tabpanel" aria-labelledby="nav-table-tab-1">
                         <div class="d-flex content_child">
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                                 <div class="nav content_child_title_left" id="nav-tab-inner" role="tablist">
                                     <button class="inner_tab_title tab_child active" id="nav-inner-table-tab-1" data-bs-toggle="tab" data-bs-target="#nav-inner-1" type="button" role="tab" aria-controls="nav-inner-1" aria-selected="true">
                                 <span class="button-content">
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                             <!-- Nội dung của tab con -->
-                            <div class="tab-content-child tab-content p-3 col-9" id="nav-tabContent-inner">
+                            <div class="tab-content-child tab-content p-3 col-lg-9 col-md-9 col-xs-12 col-sm-12" id="nav-tabContent-inner">
                                 <div class="tab-pane fade active show" id="nav-inner-1" role="tabpanel" aria-labelledby="nav-inner-table-tab-1">
                                     <!-- Nội dung của tab con 1 -->
                                     <h3>Tên dự án 1<a href="javscript:0" class="change">Thay đổi</a></h3>
@@ -397,6 +397,41 @@
                 <div class="address"><span>Địa chỉ: ABC đường DEF, phường HIJ, Quận KLM, thành phố NOP, Việt Nam</span></div>
             </div>
         </div>
+        <div id="mobile_menu">
+            <div class="head">
+                <p>
+                   Danh mục
+                </p>
+                <span class="close-menu-icon">
+                <i class="fa fa-xmark"></i>
+            </span>
+            </div>
+            <ul class="chir_menu_mobile" style="height: 686px;">
+                <li class="mobile_child tp_menu_item">
+                    <a href="#" title="Sản phẩm" class=" current tp_menu_item">
+                        Giới thiệu                                          <i class="fa fa-angle-right" aria-hidden="true"></i>                                        </a>
+                </li>
+                <li class="mobile_child tp_menu_item">
+                    <a href="/product" title="Sản phẩm" class=" current tp_menu_item">
+                        Sản phẩm                                            <i class="fa fa-angle-right" aria-hidden="true"></i>                                        </a>
+                </li>
+                <li class="mobile_child tp_menu_item">
+                    <a href="#" title="Sản phẩm" class=" current tp_menu_item">
+                        Đăng ký gói                                          <i class="fa fa-angle-right" aria-hidden="true"></i>                                        </a>
+                </li>
+                <li class="mobile_child tp_menu_item">
+                    <a href="#" title="Sản phẩm" class=" current tp_menu_item">
+                        Hướng dẫn                                          <i class="fa fa-angle-right" aria-hidden="true"></i>                                        </a>
+                </li>
+                <li class="mobile_child tp_menu_item">
+                    <a href="#" title="Sản phẩm" class=" current tp_menu_item">
+                        Hỗ trợ                                         <i class="fa fa-angle-right" aria-hidden="true"></i>                                        </a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="bg-cover"></div>
     </footer>
 </div>
 </body>
