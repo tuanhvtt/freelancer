@@ -141,10 +141,14 @@ footer .copyright .back_top{
     border-radius: 0 0px 10px 10px;
     border: 1px solid #000;
     width: 200px;
-    height: 9px;
+    height: 10px;
     display: flex;
     justify-content: center;
     cursor: pointer;
+}
+footer .copyright .back_top span{
+    position: absolute;
+    top: -9px;
 }
 .footer_bottom.hidden {
     display: block;
